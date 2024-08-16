@@ -9,6 +9,7 @@
 
         <!-- Entspannung in strahlungsfreien Räumen -->
         <article class="flex flex-col text-justify m-5 pt-0">
+          <img src="../assets/foto-1.jpg" alt="Strahlungsfrei" class="w-full h-48 object-cover rounded-lg mb-4">
           <div class="flex items-center justify-center gap-x-4 text-xs">
             <a href="#" class="relative rounded-full bg-gray-50 px-3 py-1.5 font-medium text-gray-600 hover:bg-gray-100">Strahlungsfrei</a>
           </div>
@@ -24,6 +25,7 @@
 
         <!-- Ruhe und Stille -->
         <article class="flex flex-col text-justify m-5">
+          <img src="../assets/foto-2.jpg" alt="Stille" class="w-full h-48 object-cover rounded-lg mb-4">
           <div class="flex items-center justify-center gap-x-4 text-xs">
             <a href="#" class="relative rounded-full bg-gray-50 px-3 py-1.5 font-medium text-gray-600 hover:bg-gray-100">Stille</a>
           </div>
@@ -37,10 +39,9 @@
           </div>
         </article>
 
-        
-
         <!-- Rückzugsort für Hochsensible -->
         <article class="flex flex-col text-justify m-5">
+          <img src="../assets/foto-3.jpg" alt="Hochsensibel" class="w-full h-48 object-cover rounded-lg mb-4">
           <div class="flex items-center justify-center gap-x-4 text-xs">
             <a href="#" class="relative rounded-full bg-gray-50 px-3 py-1.5 font-medium text-gray-600 hover:bg-gray-100">Hochsensibel</a>
           </div>
@@ -54,15 +55,9 @@
           </div>
         </article>
 
-        
-
-       
-
       </div>
     </div>
   </div>
-
-  
 </template>
 
 <script setup>
@@ -127,4 +122,13 @@ article {
   transform: translateX(0);
 }
 
+/* Stil für Bilder in den Artikeln */
+article img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 0.5rem; /* Abgerundete Ecken */
+  margin-bottom: 1rem;
+}
 </style>
+

@@ -67,6 +67,7 @@
   h1{
     margin-bottom: 2rem;
     margin-top: 9rem;
+    
   }
   
 }
