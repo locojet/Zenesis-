@@ -1,5 +1,5 @@
 <template>
-  <div id="sec-0" class="foto-container relative w-full overflow-hidden bg-secondary">
+  <div id="sec-0" class="foto-container relative w-full overflow-hidden bg-primary">
     <!-- Overlay hinzufügen -->
     <div class="absolute inset-0 bg-secondary2 opacity-70"></div>
     <img class="picture-room" src="../assets/banner.jpg">
@@ -70,7 +70,7 @@
   }
 
   .picture-room {
-    height: 500px;
+    height: 700px;
   }
 
   .haupt-ueberschrift {
@@ -80,6 +80,7 @@
   .ueberschrift-image {
     width: 100%; /* Make image larger */
     max-width: 600px; /* Increase max-width */
+   
   }
 }
 
