@@ -5,7 +5,7 @@
         <div class="leiste-nav relative flex items-center justify-between">
           <!-- Logo auf der linken Seite -->
           <Menu as="div" class="relative mr-5">
-            <a href="index.html">
+            <a href="https://locojet.github.io/Zenesis-/index.html">
               <MenuButton>
                 <img class="logo" src="../assets/logoweisklein.png" alt="Logo" />
               </MenuButton>
