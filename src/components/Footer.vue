@@ -1,4 +1,5 @@
 <template>
+  <div id="sec-4">
   <footer class="bg-custom-green text-white py-8 px-4 mb-20">
     <div class="max-w-7xl mx-auto text-start">
       
@@ -28,7 +29,9 @@
         <a href="/copyright" class="text-white hover:text-blue-400">© 2024 Zenesis. Alle Rechte vorbehalten.</a>
       </div>
     </div>
+    
   </footer>
+</div>
 </template>
 
 <script>

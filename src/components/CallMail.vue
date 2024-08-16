@@ -1,4 +1,4 @@
-<template>
+<template >
   <div
     id="contact-call-mail"
     class="fixed bottom-0 left-0 right-0 flex justify-around bg-custom-green py-4 shadow-md md:hidden opacity-0 transition-opacity duration-500"
