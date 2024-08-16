@@ -3,13 +3,13 @@
 import PageLoader from './components/PageLoader.vue';
 import CallMail from './components/CallMail.vue';
 import Navigation from './components/Navigation.vue';
-import VideoAbspann from './components/VideoAbspann.vue';
-import Zulassung from './components/Zulassung.vue';
+import Baner from './components/Baner.vue';
+import Button from './components/Button.vue';
 import Dienstleistungen from './components/Dienstleistungen.vue';
-import Jobs from './components/Jobs.vue';
 import Footer from './components/Footer.vue';
 import About from './components/About.vue';
-import Formular from './components/Formular.vue';
+
+
 import { onMounted } from 'vue'; // Importiere onMounted Funktion aus Vue
 
 // onMounted Hook: Führt Code aus, sobald die Komponente gemountet ist
@@ -60,14 +60,13 @@ onMounted(() => {
 <template>
   <div id="app" class="grid-container">
     <PageLoader />
+    
     <navigation />
-    <VideoAbspann />
-    <Zulassung />
+    <Baner />
     <Dienstleistungen />
-    <Jobs />
     <About />
     <CallMail />
-    <Formular />
+    
     <Footer />
   </div>
 </template>
@@ -79,4 +78,4 @@ onMounted(() => {
 * {
   transition: all 0.5s ease-in-out; 
 }
-</style>
+</style>./components/Logo.vue
