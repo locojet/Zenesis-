@@ -66,11 +66,12 @@
 /* Mobile view */
 @media (max-width: 768px) {
   .foto-container {
-    height: 75vh; /* Adjust height for smaller screens */
+    height: 95vh; /* Adjust height for smaller screens */
   }
 
   .picture-room {
-    height: 700px;
+    
+    height: 900px;
   }
 
   .haupt-ueberschrift {
